@@ -7,14 +7,12 @@
     <title>Butho Mthethwa Portfolio Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900%7CSource+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <!-- most of the icons i am using are from flaticon. You can visit the site to get free-icons -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="img/devjane.png" alt="">
-        </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
@@ -35,7 +33,9 @@
             Hi, I am <strong>Butho Mthethwa</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">Data Engineer Learner</p>
-        <img src="img/profile.webp" alt="Butho Mthethwa" class="intro__img">
+        <img src="img/My_picture.jpg" alt="Butho Mthethwa" class="intro__img">
+        <a href="https://drive.google.com/file/d/1DJza11wXWcG2-LJa99Q4e3y9xK86zK_F/view" class="btn" download="Butho_Mthethwa_CV.pdf" target="_blank"
+                rel="noopener noreferrer">Download CV</a>
     </section>
     
     <section class="my-services" id="services">
@@ -74,20 +74,61 @@
     </section>
 
     <section class="tools" id="tools">
-        <h2 class="section__title section__title--tools">Tools I Use</h2>
-        <div class="tools__list">
-            <div class="tool">
-                <img src="img/python_original_logo_icon_146381.png" alt="Python" class="tool__icon">
-                <p><strong>Python</strong></p>
-                <p>Python is my go-to language for data processing, analysis, and scripting. With extensive experience in using Python libraries like Pandas, NumPy, and Matplotlib, I efficiently handle large datasets and derive meaningful insights.</p>
-            </div>
-            <div class="tool">
-                <img src="img/postgresql-icon.png" alt="PostgreSQL" class="tool__icon">
-                <p><strong>PostgreSQL</strong></p>
-                <p>PostgreSQL is my preferred database management system for storing and managing structured data. I am skilled in writing complex SQL queries, optimizing database performance, and ensuring data integrity.</p>
-            </div>
+    <h2 class="section__title section__title--tools">Tools I Use</h2>
+    <div class="tools__list">
+        <div class="tool">
+            <img src="img/python_original_logo_icon_146381.png" alt="Python" class="tool__icon">
+            <p><strong>Python</strong></p>
+            <p>Python is my go-to language for data processing, analysis, and scripting. With extensive experience in using Python libraries like Pandas, NumPy, and Matplotlib, I efficiently handle large datasets and derive meaningful insights.</p>
         </div>
-    </section>
+        <div class="tool">
+            <img src="img/sql-server.png" alt="SQL" class="tool__icon">
+            <p><strong>SQL</strong></p>
+            <p>SQL is the standard language I use for managing and querying databases, ensuring the efficient handling of structured data.</p>
+        </div>
+        <div class="tool">
+            <img src="img/java-script.png" alt="JavaScript" class="tool__icon">
+            <p><strong>JavaScript</strong></p>
+            <p>JavaScript is key to making web pages interactive and dynamic, helping to create responsive user experiences.</p>
+        </div>
+        <div class="tool">
+            <img src="img/html.png" alt="HTML" class="tool__icon">
+            <p><strong>HTML</strong></p>
+            <p>HTML forms the backbone of my web development projects, providing structure to the content on the web.</p>
+        </div>
+        <div class="tool">
+            <img src="img/css-3.png" alt="CSS" class="tool__icon">
+            <p><strong>CSS</strong></p>
+            <p>CSS is essential for styling web pages, allowing me to bring visual appeal and design to my projects.</p>
+        </div>
+        <div class="tool">
+            <img src="img/docker.png" alt="Docker" class="tool__icon">
+            <p><strong>Docker</strong></p>
+            <p>Docker is crucial for containerizing applications, ensuring consistent environments across development, testing, and production.</p>
+        </div>
+        <div class="tool">
+            <img src="img/postgresql-icon.png" alt="PostgreSQL" class="tool__icon">
+            <p><strong>PostgreSQL</strong></p>
+            <p>PostgreSQL is my preferred database management system for storing and managing structured data.</p>
+        </div>
+        <div class="tool">
+            <img src="img/social.png" alt="Git" class="tool__icon">
+            <p><strong>Git</strong></p>
+            <p>Git is my version control system of choice, allowing me to track changes and collaborate with others efficiently.</p>
+        </div>
+        <div class="tool">
+            <img src="img/github.png" alt="GitHub" class="tool__icon">
+            <p><strong>GitHub</strong></p>
+            <p>GitHub hosts my projects, providing a platform for collaboration and version control in my coding work.</p>
+        </div>
+        <div class="tool">
+            <img src="img/linux.png" alt="Bash" class="tool__icon">
+            <p><strong>Bash</strong></p>
+            <p>Bash scripting is essential for automating tasks in Unix-based systems, streamlining my workflow.</p>
+        </div>
+    </div>
+</section>
+
     
     <section class="my-work" id="work">
         <h2 class="section__title section__title--work">My Work</h2>
@@ -95,7 +136,8 @@
         <div class="portfolio-container">
             <div class="portfolio">
                 <div class="portfolio__item">
-                    <a href="https://luxient.github.io/testimonials-grid-section-main/">
+                    <a href="https://luxient.github.io/testimonials-grid-section-main/" target="_blank"
+                rel="noopener noreferrer">
                         <img src="img/desktop-preview.jpg" alt="Testimonial Grid Section" class="portfolio__img">
                         <div class="portfolio__description">
                             <h3>Testimonial Grid Section</h3>
@@ -104,7 +146,8 @@
                     </a>
                 </div>
                 <div class="portfolio__item">
-                    <a href="https://luxient.github.io/pricing-card-frontend-mentor-challenge/">
+                    <a href="https://luxient.github.io/pricing-card-frontend-mentor-challenge/" target="_blank"
+                rel="noopener noreferrer">
                         <img src="img/etoajz7nokwmphl1jonw.jpg" alt="Pricing Card" class="portfolio__img">
                         <div class="portfolio__description">
                             <h3>Pricing Card</h3>
@@ -113,15 +156,45 @@
                     </a>
                 </div>
                 <div class="portfolio__item">
-                    <a href="https://github.com/Luxient/shopping_cart">
-                        <img src="img/DALL·E 2024-05-25 20.11.17 - Create an image of a shopping cart interface on a sleek, modern webpage. The interface should feature items in the cart, each with a thumbnail image, .webp" alt="Shopping Cart" class="portfolio__img">
+                    <a href="https://github.com/Luxient/shopping_cart" target="_blank"
+                rel="noopener noreferrer">
+                        <img src="img/DALL-E_2024-05-25_20.11.17_shopping_cart.webp" alt="Shopping Cart" class="portfolio__img">
                         <div class="portfolio__description">
                             <h3>Shopping Cart</h3>
                             <p>A backend Python project for managing shopping cart data for an online shopping startup, with tests.</p>
                         </div>
                     </a>
                 </div>
-                <!-- Add more portfolio items as needed -->
+                <div class="portfolio__item">
+                    <a href="https://luxient.github.io/Freelance_portfolio/#home" target="_blank"
+                rel="noopener noreferrer">
+                        <img src="img/freelance_portfolio.png" alt="Freelance_portfolio" class="portfolio__img">
+                        <div class="portfolio__description">
+                            <h3>Freelance_portfolio</h3>
+                            <p>A freelance portfolio website made using Reactjs and Bootstrap.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio__item">
+                    <a href="https://onedrive.live.com/edit?id=84F8B8AA1B588F8A!s78315adee371454ead000a68c20bf6fb&resid=84F8B8AA1B588F8A!s78315adee371454ead000a68c20bf6fb&cid=84f8b8aa1b588f8a&ithint=file%2Cdocx&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvYy84NGY4YjhhYTFiNTg4ZjhhL0VkNWFNWGh4NDA1RnJRQUthTUlMOXZzQnZXeWJvYUFvdnRWcmtia2VUUGxpd0E&migratedtospo=true&wdo=2" target="_blank"
+                rel="noopener noreferrer">
+                        <img src="img/output.png" alt="Global temperature" class="portfolio__img">
+                        <div class="portfolio__description">
+                            <h3>Global Temperature Analysis</h3>
+                            <p>A data analysis project focusing on global temperature changes over the past century, using Python for data processing and visualization.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio__item">
+                    <a href="https://onedrive.live.com/edit?id=84F8B8AA1B588F8A!s82866de235b74ab999ad99516b4236c5&resid=84F8B8AA1B588F8A!s82866de235b74ab999ad99516b4236c5&cid=84f8b8aa1b588f8a&ithint=file%2Cdocx&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvYy84NGY4YjhhYTFiNTg4ZjhhL0VlSnRob0szTmJsS21hMlpVV3RDTnNVQnVQSzVseDQzeVZtSlBabFdZTUhMNXc&migratedtospo=true&wdo=2" target="_blank"
+                rel="noopener noreferrer">
+                        <img src="img/Population Growth Rates Across Different Regions.png" alt="Population Growth" class="portfolio__img">
+                        <div class="portfolio__description">
+                            <h3>Urban Population Growth</h3>
+                            <p>An analysis of urban population growth trends, the challenges of urbanization, and the implications for infrastructure and resource management.</p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -133,17 +206,20 @@
                 <h3>Follow Me</h3>
                 <ul class="social-list">
                     <li class="social-list__item">
-                        <a class="social-list__link" href="https://www.linkedin.com/in/james-mthethwa-504328198?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/james-mthethwa-504328198?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+                rel="noopener noreferrer">
                             <i class="fab fa-linkedin"></i>
                         </a>
                     </li>
                     <li class="social-list__item">
-                        <a class="social-list__link" href="https://www.facebook.com/profile.php?id=100084554707290">
+                        <a class="social-list__link" href="https://www.facebook.com/profile.php?id=100084554707290" target="_blank"
+                rel="noopener noreferrer">
                             <i class="fab fa-facebook"></i>
                         </a>
                     </li>
                     <li class="social-list__item">
-                        <a class="social-list__link" href="https://github.com/Luxient">
+                        <a class="social-list__link" href="https://github.com/Luxient" target="_blank"
+                rel="noopener noreferrer">
                             <i class="fab fa-github"></i>
                         </a>
                     </li>
