@@ -185,6 +185,8 @@ header {
 
 .nav__link:hover {
     color: var(--clr-accent);
+    background-color: var(--clr-light);
+    border-radius: 5px;
 }
 
 .nav-toggle {
@@ -443,6 +445,19 @@ header {
 .portfolio-container::-webkit-scrollbar-track {
     background: #f4f4f4;
 }
+
+@media (min-width: 800px) {
+    .portfolio-container {
+        overflow-x: visible; /* Allow full view of items */
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .portfolio {
+        flex-wrap: wrap; /* Display items in multiple rows if necessary */
+    }
+}
+
 
 /* Other existing styles omitted for brevity */
 
